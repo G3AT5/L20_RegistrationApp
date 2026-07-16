@@ -17,7 +17,7 @@ const app = express();
 // });
 
 // [C237-025] Database connection to Azure MySQL Database
-const connection = mysql.createConnection({
+const db = mysql.createConnection({
     host: 'c237-annie-mysql.mysql.database.azure.com',
     user: 'c237_025',
     password: 'c237025@2026!',
